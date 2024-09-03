@@ -1,0 +1,9 @@
+.text-center {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px;
+    width: 200px;
+    height: 200px;
+    padding: 10%;
+}
+

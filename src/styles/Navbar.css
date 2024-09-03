@@ -1,0 +1,15 @@
+/* Estilos para la barra de navegación */
+
+.ml-auto {
+  display: flex;
+
+}
+
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+  }
+  

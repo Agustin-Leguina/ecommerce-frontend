@@ -1,0 +1,152 @@
+[
+
+    {
+      "id": 1,
+      "title": "Cerveza Corona Botella 710cc",
+      "price": 2.860,
+      "category": "cervezas",
+      "image": "https://f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/c/o/corona_710_ml.png"
+    },
+    {
+      "id": 2,
+      "title": "Cerveza Patagonia Wissie 730cc",
+      "price": 2.490,
+      "category": "cervezas",
+      "image": "https://f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/p/a/patagonia_2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Cerveza Patagonia Bohemian 730cc",
+      "price": 2.490,
+      "category": "cervezas",
+      "image": "https://f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/p/a/patagonia_3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cerveza Corona 410cc",
+      "price": 1.300,
+      "category": "cervezas", 
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvQZYF3VX7dgk8K-YXl98fKQ-hIXz3YeOlQ&s"
+    },
+    {
+      "id": 5,
+      "title": "Vino Alaris 750cc",
+      "price": 2.500,
+      "category": "vinos",
+      "image": "https://f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/a/l/alaris.png"
+    },
+    {
+      "id": 6,
+      "title": "Vino Aimé 750cc",
+      "price": 3.200,
+      "category": "vinos",
+      "image": "https://f2h.shop/media/catalog/product/cache/9ebfe39d793884976091ecd8fea37eeb/a/i/aime.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Vino Emilia 750cc",
+      "price": 2.300,
+      "category": "vinos",
+      "image": "https://f2h.shop/media/catalog/product/cache/9ebfe39d793884976091ecd8fea37eeb/e/m/emilia_reeeed.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Coca Cola 2.25lt.",
+      "price": 3.000,
+      "category": "gaseosas",
+      "image": "https://i.pinimg.com/736x/52/09/77/520977593cb52286251d0de3ca50751d.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Sprite 1.75lt.",
+      "price": 2.700,
+      "category": "gaseosas",
+      "image": "https://f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/s/p/sprite_sin_az_1.5.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Fanta 1.50lt.",
+      "price": 1.900,
+      "category": "gaseosas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfTFKBxDNPP6BlEmRqOlZA26B_N8hcHS__w&s"
+    },
+    {
+      "id": 11,
+      "title": "Pepsi 1.50lt.",
+      "price": 1.900,
+      "category": "gaseosas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ-5B7MEhtJZMzPnRxBKjl4x-ojCjXLYcnQQ&s"
+    },
+    {
+      "id": 12,
+      "title": "Pack 6 latas Corona 355cc",
+      "price": 4.900,
+      "category": "combos",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtnWaQLhuEchSChCuvfJflQp8MlrgrIluEBw&s"
+    },
+    {
+      "id": 13,
+      "title": "Cerveza Quilmes botella x3",
+      "price": 6.900,
+      "category": "combos",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2EOgVywFZwl5j61b-6YwI08pxWmgoNUws0g&s.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Cerveza Heinecken 1lt",
+      "price": 3.900,
+      "category": "cervezas",
+      "image": "https://laprovedeampip.com.ar/wp-content/uploads/2024/01/Cerveza-Heineken-1l.png"
+    },
+    {
+      "id": 15,
+      "title": "Cerveza Budweiser 730cc",
+      "price": 2.400,
+      "category": "cervezas",
+      "image": "https://tadadelivery.com.uy/cdn/shop/files/WhatsAppImage2023-10-14at15.14.47_grande.jpg?v=1697307307"
+    },
+    {
+      "id": 16,
+      "title": "Manaos Cola 3lt.",
+      "price": 2.200,
+      "category": "gaseosas",
+      "image": "https://www.lacoopeencasa.coop/media/lcec/publico/articulos/f/e/2/fe276cafb634b6439674325c6ba20d39"
+    },
+    {
+      "id": 17,
+      "title": "Manaos Uva 2lt.",
+      "price": 1.500,
+      "category": "gaseosas",
+      "image": "https://www.potigian.com.ar/wp-content/uploads/2023/06/14145111111.png"
+    },
+    {
+      "id": 18,
+      "title": "Vino tinto Vasco Viejo x6",
+      "price": 8.900,
+      "category": "combos",
+      "image": "https://borrachines.com.ar/wp-content/uploads/2023/08/vasco-viejo-blend-x6-MERCADOO.png"
+    },
+    {
+      "id": 19,
+      "title": "Vino Rutini 750cc",
+      "price": 8.900,
+      "category": "vinos",
+      "image": "https://www.lacoopeencasa.coop/media/lcec/publico/articulos/4/7/9/47956e21cbbb19ff5f29cb1b4169c52e"
+    },
+    {
+      "id": 20,
+      "title": "Vino Elementos 750cc",
+      "price": 2.800,
+      "category": "vinos",
+      "image": "https://file.nubing.com.ar/product/b18ee8ae-8cee-4c0f-94a9-315bd821a455_FULL_SQUARE.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Vino Toro 750cc",
+      "price": 2.200,
+      "category": "vinos",
+      "image": "https://distribuidorajs.com.ar/wp-content/uploads/2024/06/Toro_botella.jpeg"
+    }
+    
+  ]
+  

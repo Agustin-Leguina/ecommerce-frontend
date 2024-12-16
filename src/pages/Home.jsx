@@ -1,32 +1,37 @@
 import React, { useState, useEffect } from 'react';
 import ProductList from '../components/ProductList';
-import '../styles/Home.css';
-import CocaColaImg from '../assets/img/cocacola.jpeg';
-import PepsiImg from '../assets/img/pepsi.jpeg';
-import FantaImg from '../assets/img/fanta.jpeg';
+import '../styles/Footer.css';
 
-const Home = () => {
-  const [products, setProducts] = useState([]);
+const Home = ({ products }) => {
+  const [filteredProducts, setFilteredProducts] = useState(products);
+
+  // Función para manejar la búsqueda
+  const handleSearch = (searchTerm) => {
+    if (!searchTerm) {
+      setFilteredProducts(products); // Si no hay término de búsqueda, mostrar todos los productos
+    } else {
+      const filtered = products.filter(product =>
+        product.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredProducts(filtered); // Filtrar productos según el término de búsqueda
+    }
+  };
+
+  // Función para restablecer los productos al hacer clic en el logo
+  const resetProducts = () => {
+    setFilteredProducts(products); // Restablece la lista completa de productos
+  };
 
   useEffect(() => {
-    // Simulación de API (productos) 
-    const mockProducts = [
-      { id: 1, name: 'Coca Cola', price: '$1.50', image: CocaColaImg },
-      { id: 2, name: 'Pepsi', price: '$1.40', image: PepsiImg },
-      { id: 3, name: 'Fanta', price: '$1.30', image: FantaImg },
-
-    ];
-    setProducts(mockProducts);
-  }, []);
+    setFilteredProducts(products); // Actualizar la lista de productos cuando cambien
+  }, [products]);
 
   return (
-    <>
-      <div className="container mt-4">
-        <h1 className='palabra-productos'>Productos</h1>
-          <ProductList products={products} />
-          <ProductList products={products} />
-        </div>
-    </>   
+    <div className="div-principal">
+      <h1>Todos los productos</h1>
+      <ProductList products={filteredProducts} /> {/* Mostramos productos filtrados */}
+      <footer>&copy; 2024 Distribuidora La Estación. Todos los derechos reservados.</footer>
+    </div>
   );
 };
 

@@ -1,12 +1,15 @@
 import React from 'react';
-import ProductCard from '../components/ProductCard';
 import { Row, Col } from 'react-bootstrap';
+import ProductCard from './ProductCard';
+
+
+// mapeo de productos filtrados
 
 const ProductList = ({ products }) => {
   return (
     <Row>
-      {products.map((product) => (
-        <Col md={4} key={product.id} className="mb-4">
+      {products.map(product => (
+        <Col key={product.id} sm={12} md={6} lg={4}>
           <ProductCard product={product} />
         </Col>
       ))}

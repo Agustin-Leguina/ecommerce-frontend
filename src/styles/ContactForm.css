@@ -2,4 +2,30 @@
 .form-group {
     margin-bottom: 15px;
   }
-  
+
+/* ContactForm.css */
+.contact-page {
+  padding: 20px;
+}
+
+.form-contact {
+  margin-top: 20px; /* Espacio superior del formulario */
+}
+
+.form-contact .form-group {
+  margin-bottom: 15px; /* Espacio inferior entre cada grupo de formulario */
+}
+
+.form-contact .btn {
+  margin-top: 10px; /* Espacio superior del botón */
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 10px;
+  }
+
+  .form-contact {
+    margin-top: 15px;
+  }
+}
